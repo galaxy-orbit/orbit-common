@@ -15,7 +15,7 @@
     "dev": "bun --watch src/index.ts",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
-    "build:types": "bash ../../scripts/build-types.sh common",
+    "build:types": "bash scripts/build-types.sh",
     "changeset": "changeset"
   },
   "devDependencies": {
