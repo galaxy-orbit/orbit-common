@@ -1,6 +1,6 @@
 {
   "name": "@galaxy-stack/orbit-common",
-  "version": "0.1.8",
+  "version": "0.1.14",
   "description": "Common decorators, pipes, guards, interceptors for Orbit",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -11,7 +11,7 @@
     }
   },
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./dist --target bun --external reflect-metadata",
+    "build": "bun build ./src/index.ts --outdir ./dist --target bun --packages external",
     "dev": "bun --watch src/index.ts",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
@@ -33,8 +33,8 @@
     "type": "git",
     "url": "git+https://github.com/galaxy-orbit/orbit-common.git"
   },
-  "homepage": "https://github.com/galaxy-orbit/orbit#readme",
+  "homepage": "https://github.com/galaxy-orbit/orbit-cli#readme",
   "bugs": {
-    "url": "https://github.com/galaxy-orbit/orbit-common/issues"
+    "url": "https://github.com/galaxy-orbit/orbit-cli/issues"
   }
 }

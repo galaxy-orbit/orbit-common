@@ -1,0 +1,1 @@
+{"version":3,"file":"guard.interface.d.ts","sourceRoot":"","sources":["guard.interface.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,WAAW;IAC1B,WAAW,CAAC,OAAO,EAAE,GAAG,GAAG,OAAO,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC;CACvD;AAED,MAAM,MAAM,UAAU,GAAG,KAAK,GAAG,IAAI,EAAE,GAAG,EAAE,KAAK,WAAW,CAAC"}
