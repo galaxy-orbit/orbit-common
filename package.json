@@ -1,13 +1,13 @@
 {
   "name": "@galaxy-stack/orbit-common",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Common decorators, pipes, guards, interceptors for Orbit",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "scripts": {
